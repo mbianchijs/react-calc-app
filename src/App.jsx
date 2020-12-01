@@ -18,21 +18,21 @@ const App = () => {
            <button>9</button>
            <button>0</button>
        </div>
-       <div className="funtions">
+       <div className="functions">
            <button>
                 Limpiar
             </button>
             <button>
                 Remover
             </button>
-            <div className="math-operations">
-                <button>+</button>
-                <button>-</button>
-                <button>*</button>
-                <button>/</button>
-                <button>=</button>
-            </div>
        </div>
+        <div className="math-operations">
+            <button>+</button>
+            <button>-</button>
+            <button>*</button>
+            <button>/</button>
+            <button>=</button>
+        </div>
    </main>);
 }
 
