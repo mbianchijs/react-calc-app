@@ -4,7 +4,7 @@ import './App.css';
 
 const App = () => {
    return (<main className="react-calculator">
-       <Result resultado={500}/>
+       <Result />
        <div className="numbers">
            <button>1</button>
            <button>2</button>

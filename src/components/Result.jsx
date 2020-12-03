@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Result = ({ resultado }) => {
     return (
@@ -6,6 +7,14 @@ const Result = ({ resultado }) => {
             <span>{ resultado }</span>
         </div>
     )
+}
+
+Result.propTypes = {
+    resultado: PropTypes.string.isRequired
+}
+
+Result.defaultProps = {
+    resultado: "500"
 }
 
 export default Result;
