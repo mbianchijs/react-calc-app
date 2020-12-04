@@ -1,5 +1,6 @@
 import React from 'react'
 import Result from './components/Result'
+import MathOperations from './components/MathOperations'
 import Button from './components/Button'
 import './App.css'
 
@@ -30,13 +31,7 @@ const App = () => {
                         Remover
                     </button>
             </div>
-                <div className="math-operations">
-                    <button>+</button>
-                    <button>-</button>
-                    <button>*</button>
-                    <button>/</button>
-                    <button>=</button>
-                </div>
+            <MathOperations />
         </main>
     )
 }
